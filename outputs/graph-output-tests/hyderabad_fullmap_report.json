@@ -1,0 +1,26 @@
+{
+  "city": "hyderabad",
+  "map_size": [
+    33689,
+    43125
+  ],
+  "crs": "EPSG:32644",
+  "tile_size": 512,
+  "workers": 15,
+  "fidelity": "simplified",
+  "tiles_total": 5610,
+  "tiles_with_roads": 3311,
+  "edges_total": 215231,
+  "bridges_total": 126405,
+  "gatekeepers_total": 19649,
+  "gap_max_m": 295.66,
+  "gap_mean_m": 13.97,
+  "gap_cap_m": 300.0,
+  "wall_clock_s": 98.4,
+  "outputs": {
+    "geojson": "C:\\Users\\isumi\\Desktop\\TERRAIN\\TERRAIN---ISRO-BAH-26\\outputs\\graph-output-tests\\hyderabad_fullmap.geojson",
+    "png": "hyderabad_fullmap.png",
+    "html": "hyderabad_fullmap.html"
+  },
+  "note": "tiles healed independently; edges not stitched across tile boundaries"
+}

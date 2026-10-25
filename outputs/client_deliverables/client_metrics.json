@@ -1,0 +1,77 @@
+{
+  "cartosat3": {
+    "skeleton_px": 3258,
+    "nodes": 209,
+    "edges": 131,
+    "healed_nodes": 233,
+    "healed_edges": 257,
+    "comps_before": 79,
+    "comps_after": 1,
+    "lcc_before": 0.1244,
+    "lcc_after": 1.0,
+    "healed_bridges": 60,
+    "max_healed_gap_m": 37.8,
+    "gap_cap_m": 200.0,
+    "n_gatekeepers": 8,
+    "betweenness_max": 0.35781,
+    "resilience": 0.5835,
+    "foreground_frac": 0.2776,
+    "window": 512,
+    "center": [
+      11272,
+      7336
+    ],
+    "crs": "EPSG:32644",
+    "display": "Cartosat-3  \u00b7  Hyderabad (1 m GSD, optical)"
+  },
+  "sentinel2": {
+    "skeleton_px": 11516,
+    "nodes": 1844,
+    "edges": 1203,
+    "healed_nodes": 1978,
+    "healed_edges": 2121,
+    "comps_before": 661,
+    "comps_after": 10,
+    "lcc_before": 0.1052,
+    "lcc_after": 0.9631,
+    "healed_bridges": 544,
+    "max_healed_gap_m": 199.7,
+    "gap_cap_m": 200.0,
+    "n_gatekeepers": 8,
+    "betweenness_max": 0.38656,
+    "resilience": 0.6941,
+    "foreground_frac": 0.558,
+    "window": 512,
+    "center": [
+      3652,
+      2255
+    ],
+    "crs": "EPSG:32643",
+    "display": "Sentinel-2  \u00b7  Bengaluru (10 m GSD, multispectral)"
+  },
+  "liss4": {
+    "skeleton_px": 7074,
+    "nodes": 714,
+    "edges": 472,
+    "healed_nodes": 769,
+    "healed_edges": 828,
+    "comps_before": 248,
+    "comps_after": 2,
+    "lcc_before": 0.1218,
+    "lcc_after": 0.9948,
+    "healed_bridges": 206,
+    "max_healed_gap_m": 170.7,
+    "gap_cap_m": 200.0,
+    "n_gatekeepers": 8,
+    "betweenness_max": 0.42285,
+    "resilience": 0.7873,
+    "foreground_frac": 0.5385,
+    "window": 512,
+    "center": [
+      4689,
+      256
+    ],
+    "crs": "EPSG:32643",
+    "display": "LISS-IV  \u00b7  Delhi (5.8 m GSD, multispectral)"
+  }
+}

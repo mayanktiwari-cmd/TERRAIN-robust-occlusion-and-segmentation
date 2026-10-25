@@ -1,0 +1,62 @@
+{
+  "tag": "liss4",
+  "crs": "EPSG:32643",
+  "window": [
+    419,
+    512
+  ],
+  "center": [
+    3072,
+    5888
+  ],
+  "graph": {
+    "nodes": 1006,
+    "edges": 661,
+    "healed_nodes": 1077,
+    "healed_edges": 1157
+  },
+  "metrics": {
+    "comps_before": 355,
+    "comps_after": 1,
+    "lcc_before": 0.17594433399602386,
+    "lcc_after": 1.0,
+    "healed_edges": 556,
+    "healed_bridges": 297,
+    "max_healed_gap": 195.0640920313116,
+    "cap": 200.0,
+    "crossings": 1
+  },
+  "gcn_source": "trained(loss=0.7313)",
+  "gcn": {
+    "n_gatekeepers": 108,
+    "top": [
+      "J709913333_3151006667",
+      "113574",
+      "157998",
+      "113062",
+      "20589",
+      "J708230000_3151193333",
+      "84172",
+      "97994"
+    ],
+    "baseline_top": [
+      "112863",
+      "113395",
+      "88894",
+      "96972",
+      "97485",
+      "106902",
+      "113062",
+      "115629"
+    ],
+    "gcn_vs_betweenness_topK_overlap": 0.125
+  },
+  "resilience_index": 0.55413,
+  "removal_steps": 10,
+  "timings": {
+    "dilate": 0.0068,
+    "skeletonize": 0.1431,
+    "build": 0.0116,
+    "heal": 0.5693
+  }
+}

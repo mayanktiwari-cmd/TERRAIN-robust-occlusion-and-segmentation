@@ -1,0 +1,9 @@
+streamlit>=1.46,<2
+geopandas>=1.1,<2
+pyogrio>=0.11,<1
+pyarrow>=20,<24
+pydeck>=0.9,<1
+pandas>=2.2,<3
+networkx>=3.4,<4
+folium>=0.20,<1
+streamlit-folium>=0.25,<1

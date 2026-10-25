@@ -1,0 +1,61 @@
+{
+  "city": "hyderabad",
+  "device": "cpu",
+  "checkpoint": "outputs/models/terrain_best.pth",
+  "window": 512,
+  "center": [
+    10240,
+    12288
+  ],
+  "crs": "EPSG:32644",
+  "bbox": [
+    219850.1942097064,
+    1929907.7528809214,
+    220080.59420363823,
+    1930138.152875296
+  ],
+  "foreground_px": 6796,
+  "graph": {
+    "nodes": 599,
+    "edges": 384,
+    "healed_nodes": 676,
+    "healed_edges": 754
+  },
+  "metrics": {
+    "comps_before": 217,
+    "comps_after": 1,
+    "lcc_before": 0.332220367278798,
+    "lcc_after": 1.0,
+    "healed_edges": 425,
+    "healed_bridges": 172,
+    "max_healed_gap": 32.84999913480715,
+    "cap": 200.0,
+    "crossings": 11
+  },
+  "gcn": {
+    "n_gatekeepers": 68,
+    "top": [
+      "J219954169_1929960415",
+      "J219896694_1930079813",
+      "J219967033_1929995857",
+      "216208",
+      "J219970119_1929994828"
+    ],
+    "baseline_top": [
+      "J219985558_1930032403",
+      "J219956587_1930008360",
+      "124151",
+      "J219969444_1930117078",
+      "24329"
+    ],
+    "gcn_vs_betweenness_topK_overlap": 0.0
+  },
+  "resilience_index": 0.98824,
+  "removal_steps": 10,
+  "timings": {
+    "dilate": 0.0145,
+    "skeletonize": 0.1674,
+    "build": 0.0088,
+    "heal": 0.1341
+  }
+}

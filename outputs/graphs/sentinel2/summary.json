@@ -1,0 +1,111 @@
+{
+  "sensor": "sentinel2",
+  "n_masks": 15,
+  "graphs": [
+    {
+      "mask": "mask_tile_r0000_c0012.tif",
+      "n_nodes": 278,
+      "n_edges": 295,
+      "n_gatekeepers": 56,
+      "resilience_index": 0.3459
+    },
+    {
+      "mask": "mask_tile_r0000_c0013.tif",
+      "n_nodes": 444,
+      "n_edges": 474,
+      "n_gatekeepers": 89,
+      "resilience_index": 0.4507
+    },
+    {
+      "mask": "mask_tile_r0000_c0014.tif",
+      "n_nodes": 330,
+      "n_edges": 349,
+      "n_gatekeepers": 66,
+      "resilience_index": 0.2613
+    },
+    {
+      "mask": "mask_tile_r0000_c0015.tif",
+      "n_nodes": 296,
+      "n_edges": 310,
+      "n_gatekeepers": 59,
+      "resilience_index": 0.2716
+    },
+    {
+      "mask": "mask_tile_r0000_c0016.tif",
+      "n_nodes": 248,
+      "n_edges": 263,
+      "n_gatekeepers": 50,
+      "resilience_index": 0.2978
+    },
+    {
+      "mask": "mask_tile_r0000_c0017.tif",
+      "n_nodes": 320,
+      "n_edges": 340,
+      "n_gatekeepers": 64,
+      "resilience_index": 0.285
+    },
+    {
+      "mask": "mask_tile_r0000_c0018.tif",
+      "n_nodes": 556,
+      "n_edges": 604,
+      "n_gatekeepers": 111,
+      "resilience_index": 0.225
+    },
+    {
+      "mask": "mask_tile_r0000_c0019.tif",
+      "n_nodes": 183,
+      "n_edges": 187,
+      "n_gatekeepers": 37,
+      "resilience_index": 0.2294
+    },
+    {
+      "mask": "mask_tile_r0000_c0020.tif",
+      "n_nodes": 144,
+      "n_edges": 150,
+      "n_gatekeepers": 29,
+      "resilience_index": 0.3421
+    },
+    {
+      "mask": "mask_tile_r0001_c0012.tif",
+      "n_nodes": 443,
+      "n_edges": 458,
+      "n_gatekeepers": 89,
+      "resilience_index": 0.215
+    },
+    {
+      "mask": "mask_tile_r0001_c0013.tif",
+      "n_nodes": 608,
+      "n_edges": 642,
+      "n_gatekeepers": 122,
+      "resilience_index": 0.272
+    },
+    {
+      "mask": "mask_tile_r0001_c0014.tif",
+      "n_nodes": 757,
+      "n_edges": 807,
+      "n_gatekeepers": 151,
+      "resilience_index": 0.3413
+    },
+    {
+      "mask": "mask_tile_r0001_c0015.tif",
+      "n_nodes": 488,
+      "n_edges": 511,
+      "n_gatekeepers": 98,
+      "resilience_index": 0.3954
+    },
+    {
+      "mask": "mask_tile_r0001_c0016.tif",
+      "n_nodes": 494,
+      "n_edges": 521,
+      "n_gatekeepers": 99,
+      "resilience_index": 0.2476
+    },
+    {
+      "mask": "mask_tile_r0001_c0017.tif",
+      "n_nodes": 485,
+      "n_edges": 506,
+      "n_gatekeepers": 97,
+      "resilience_index": 0.2468
+    }
+  ]
+}

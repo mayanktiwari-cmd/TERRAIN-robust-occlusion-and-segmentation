@@ -1,0 +1,47 @@
+[
+  {
+    "sensor": "cartosat3",
+    "crs": "EPSG:32644",
+    "metrics": {
+      "comps_before": 81,
+      "comps_after": 1,
+      "lcc_before": 0.1784037558685446,
+      "lcc_after": 1.0,
+      "healed_edges": 142,
+      "healed_bridges": 61,
+      "max_healed_gap": 24.299999406794086,
+      "cap": 200.0,
+      "crossings": 2
+    }
+  },
+  {
+    "sensor": "sentinel2",
+    "crs": "EPSG:32643",
+    "metrics": {
+      "comps_before": 462,
+      "comps_after": 12,
+      "lcc_before": 0.04803843074459568,
+      "lcc_after": 0.9644478063540091,
+      "healed_edges": 658,
+      "healed_bridges": 388,
+      "max_healed_gap": 197.23146578494925,
+      "cap": 200.0,
+      "crossings": 11
+    }
+  },
+  {
+    "sensor": "liss4",
+    "crs": "EPSG:32643",
+    "metrics": {
+      "comps_before": 355,
+      "comps_after": 1,
+      "lcc_before": 0.17594433399602386,
+      "lcc_after": 1.0,
+      "healed_edges": 556,
+      "healed_bridges": 297,
+      "max_healed_gap": 195.0640920313116,
+      "cap": 200.0,
+      "crossings": 1
+    }
+  }
+]

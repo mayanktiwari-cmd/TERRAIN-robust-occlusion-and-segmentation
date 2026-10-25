@@ -1,0 +1,62 @@
+{
+  "tag": "sentinel2",
+  "crs": "EPSG:32643",
+  "window": [
+    512,
+    512
+  ],
+  "center": [
+    2560,
+    2048
+  ],
+  "graph": {
+    "nodes": 1249,
+    "edges": 795,
+    "healed_nodes": 1322,
+    "healed_edges": 1392
+  },
+  "metrics": {
+    "comps_before": 462,
+    "comps_after": 12,
+    "lcc_before": 0.04803843074459568,
+    "lcc_after": 0.9644478063540091,
+    "healed_edges": 658,
+    "healed_bridges": 388,
+    "max_healed_gap": 197.23146578494925,
+    "cap": 200.0,
+    "crossings": 11
+  },
+  "gcn_source": "trained(loss=0.7264)",
+  "gcn": {
+    "n_gatekeepers": 132,
+    "top": [
+      "154908",
+      "155931",
+      "142623",
+      "J780593932_1442757580",
+      "31906",
+      "135960",
+      "37915",
+      "J777812516_1440762240"
+    ],
+    "baseline_top": [
+      "165155",
+      "J780268048_1440190269",
+      "155427",
+      "160548",
+      "130846",
+      "155421",
+      "155420",
+      "155931"
+    ],
+    "gcn_vs_betweenness_topK_overlap": 0.125
+  },
+  "resilience_index": 0.39085,
+  "removal_steps": 10,
+  "timings": {
+    "dilate": 0.0171,
+    "skeletonize": 0.1895,
+    "build": 0.0103,
+    "heal": 0.7622
+  }
+}

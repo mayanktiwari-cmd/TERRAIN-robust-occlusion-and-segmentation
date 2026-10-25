@@ -1,0 +1,52 @@
+{
+  "city": "hyderabad",
+  "window": 512,
+  "center": [
+    10240,
+    12288
+  ],
+  "crs": "EPSG:32644",
+  "bbox": [
+    219850.1942097064,
+    1929907.7528809214,
+    220080.59420363823,
+    1930138.152875296
+  ],
+  "foreground_px_truth": 6796,
+  "pixel_level": {
+    "iou": 1.0,
+    "dice": 1.0,
+    "precision": 1.0,
+    "recall": 1.0
+  },
+  "graph_level": {
+    "skeleton_recall_vs_truth": 0.1993,
+    "bridge_legitimacy": {
+      "n_bridges": 172,
+      "legit": 44,
+      "hallucinated": 128,
+      "legitimacy": 0.2558,
+      "mean_on_truth": 0.2601,
+      "max_on_truth": 1.0
+    },
+    "healing_metrics": {
+      "comps_before": 217,
+      "comps_after": 1,
+      "lcc_before": 0.332220367278798,
+      "lcc_after": 1.0,
+      "healed_edges": 425,
+      "healed_bridges": 172,
+      "max_healed_gap": 32.84999913480715,
+      "cap": 200.0,
+      "crossings": 11
+    },
+    "truth_components": 1
+  },
+  "timings": {
+    "dilate": 0.013499699998646975,
+    "skeletonize": 0.19611089999671094,
+    "build": 0.004271999991033226,
+    "heal": 0.1375348000001395
+  },
+  "note": "pixel metrics are ~1.0 when no --mask is given (generated==truth). Pass a segmentation --mask to get the real model-vs-truth closeness."
+}

@@ -1,0 +1,24 @@
+docs/
+PS4/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Dataset (38+ GB) — never commit raw/processed tiles
+data/processed/
+data/raw/
+data/buffered/
+
+# Generated check/output artifacts
+outputs/check_dataset/
+
+# Model weights (151 MB) — download from Kaggle, never commit
+*.pth
+/terrain_best_best.json
+
+# Recreatable predicted masks + volatile logs
+data/masked/
+outputs/predict_all.log
+
+# Stale Kaggle entrypoint (legacy /kaggle/input/terrain-bah2026-* layout)
+segmentation/train_kaggle.py

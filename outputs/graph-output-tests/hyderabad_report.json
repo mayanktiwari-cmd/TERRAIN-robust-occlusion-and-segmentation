@@ -1,0 +1,73 @@
+{
+  "city": "hyderabad",
+  "window": [
+    512,
+    512
+  ],
+  "center": [
+    10240,
+    12288
+  ],
+  "meta": {
+    "city": "hyderabad",
+    "crs": "EPSG:32644",
+    "window": [
+      512,
+      512
+    ],
+    "offset": [
+      10240,
+      12288
+    ],
+    "bbox": [
+      219850.1942097064,
+      1929907.7528809214,
+      220080.59420363823,
+      1930138.152875296
+    ],
+    "foreground_px": 6796,
+    "foreground_frac": 0.0259246826171875,
+    "n_features": 53
+  },
+  "graph": {
+    "nodes": 599,
+    "edges": 384,
+    "healed_nodes": 676,
+    "healed_edges": 754,
+    "heal_timings": {
+      "dilate": 0.00931049999780953,
+      "skeletonize": 0.1506812000006903,
+      "build": 0.004911699987133034,
+      "heal": 0.1378238000033889
+    }
+  },
+  "metrics": {
+    "comps_before": 217,
+    "comps_after": 1,
+    "lcc_before": 0.332220367278798,
+    "lcc_after": 1.0,
+    "healed_edges": 425,
+    "healed_bridges": 172,
+    "max_healed_gap": 32.84999913480715,
+    "cap": 300.0,
+    "crossings": 11
+  },
+  "criticality": {
+    "centrality_k": 500,
+    "top_gatekeepers": [
+      "J219985558_1930032403",
+      "J219956587_1930008360",
+      "J219969444_1930117078",
+      "124151",
+      "24329",
+      "132845",
+      "134381",
+      "142058",
+      "135405",
+      "147692"
+    ],
+    "n_gatekeepers": 68,
+    "resilience_index": 0.98809,
+    "removal_steps": 10
+  }
+}

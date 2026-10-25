@@ -1,0 +1,27 @@
+{
+  "sensor": "liss4",
+  "n_masks": 3,
+  "graphs": [
+    {
+      "mask": "mask_tile_r0000_c0000.tif",
+      "n_nodes": 390,
+      "n_edges": 423,
+      "n_gatekeepers": 78,
+      "resilience_index": 0.3316
+    },
+    {
+      "mask": "mask_tile_r0000_c0001.tif",
+      "n_nodes": 325,
+      "n_edges": 344,
+      "n_gatekeepers": 65,
+      "resilience_index": 0.4467
+    },
+    {
+      "mask": "mask_tile_r0000_c0002.tif",
+      "n_nodes": 380,
+      "n_edges": 404,
+      "n_gatekeepers": 76,
+      "resilience_index": 0.303
+    }
+  ]
+}

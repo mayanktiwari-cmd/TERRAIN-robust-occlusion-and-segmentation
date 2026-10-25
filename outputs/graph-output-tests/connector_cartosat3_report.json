@@ -1,0 +1,62 @@
+{
+  "tag": "cartosat3",
+  "crs": "EPSG:32644",
+  "window": [
+    512,
+    512
+  ],
+  "center": [
+    19968,
+    20736
+  ],
+  "graph": {
+    "nodes": 213,
+    "edges": 133,
+    "healed_nodes": 236,
+    "healed_edges": 259
+  },
+  "metrics": {
+    "comps_before": 81,
+    "comps_after": 1,
+    "lcc_before": 0.1784037558685446,
+    "lcc_after": 1.0,
+    "healed_edges": 142,
+    "healed_bridges": 61,
+    "max_healed_gap": 24.299999406794086,
+    "cap": 200.0,
+    "crossings": 2
+  },
+  "gcn_source": "trained(loss=0.6185)",
+  "gcn": {
+    "n_gatekeepers": 24,
+    "top": [
+      "J224368001_1926119982",
+      "J224424444_1926078013",
+      "J224369142_1926159628",
+      "109822",
+      "J224317344_1926152953",
+      "191699",
+      "J224370814_1926118658",
+      "31341"
+    ],
+    "baseline_top": [
+      "J224368001_1926119982",
+      "J224369142_1926159628",
+      "J224369094_1926159592",
+      "176289",
+      "80072",
+      "136377",
+      "151207",
+      "152231"
+    ],
+    "gcn_vs_betweenness_topK_overlap": 0.25
+  },
+  "resilience_index": 0.94767,
+  "removal_steps": 10,
+  "timings": {
+    "dilate": 0.0109,
+    "skeletonize": 0.0771,
+    "build": 0.0017,
+    "heal": 0.0276
+  }
+}
